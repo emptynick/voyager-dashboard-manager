@@ -1,0 +1,27 @@
+{
+    "name": "emptynick/voyager-dashboard-manager",
+    "description": "Manage Voyagers dashboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Schweppe",
+            "email": "info@cschweppe.de"
+        }
+    ],
+    "keywords": ["voyager2-plugin", "voyager-dashboard-manager", "voyager", "dashboard", "widgets", "manager"],
+    "autoload": {
+        "psr-4": {
+            "Emptynick\\VoyagerDashboard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emptynick\\VoyagerDashboard\\VoyagerDashboardServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "voyager-admin/voyager": "2.x-dev"
+    }
+}

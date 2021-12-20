@@ -1,0 +1,13 @@
+{
+  "name": "voyager-dashboard-manager",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --mode development --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "@vue/compiler-sfc": "^3.2.24",
+    "vite": "^2.7.0"
+  }
+}
